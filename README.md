@@ -31,3 +31,4 @@
 
 
 ![alt text](http://pages.cs.wisc.edu/~bart/537/lecturenotes/figures/s6-prodcons.jpg)
+
