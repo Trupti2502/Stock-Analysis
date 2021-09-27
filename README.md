@@ -29,3 +29,5 @@
 * EV stock use case-Kareem
 * Deployment-Trupti’s Team
 
+
+![alt text](http://url/to/img.png)
