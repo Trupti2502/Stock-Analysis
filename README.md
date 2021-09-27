@@ -11,3 +11,10 @@
 * Netcat
 
 
+## TECHNOLOGIES USED:
+* Spark
+* Kafka
+* Pyspark
+
+
+
