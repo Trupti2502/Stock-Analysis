@@ -13,7 +13,7 @@
 * Pandas datareader library
 * Netcat
 * API : Forex trading,
-* data visualization tool: matplotlib library)
+* data visualization tool: matplotlib,Seaborn)
 
 
 ## TECHNOLOGIES USED:
