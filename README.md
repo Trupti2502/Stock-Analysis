@@ -4,7 +4,9 @@
 ***->This project includes live streaming of data from a stock analysis website tiingo.
 ->The data from Forex trading API is streamed through Kafka.***
 
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+*  Item 1
+*  Item 2
+*  Item 3
+    *  Item 3a
+    *  Item 3b
+    *  Item 3c
