@@ -16,7 +16,7 @@
 * Kafka
 * Pyspark
 
-## ROLES AND RESPONSIBILITIES
+# ROLES AND RESPONSIBILITIES
 * DATA STREAMING AND SPARK submit job- Rajib’s team
 * Use cases- Eshwar’s team
 * Visualization- Karan’s team
