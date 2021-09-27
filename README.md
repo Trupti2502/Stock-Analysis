@@ -20,7 +20,7 @@
 * Spark
 * Kafka
 * Pyspark
-
+![alt text](http://pages.cs.wisc.edu/~bart/537/lecturenotes/figures/s6-prodcons.jpg)
 
 # ROLES AND RESPONSIBILITIES
 * DATA STREAMING AND SPARK submit job- Rajib’s team
@@ -29,6 +29,4 @@
 * EV stock use case-Kareem
 * Deployment-Trupti’s Team
 
-
-![alt text](http://pages.cs.wisc.edu/~bart/537/lecturenotes/figures/s6-prodcons.jpg)
 
