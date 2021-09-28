@@ -24,7 +24,7 @@
 
 ![alt text](https://databricks.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-29-at-10.11.42-PM.png)
 
-# ROLES AND RESPONSIBILITIES
+## ROLES AND RESPONSIBILITIES
 * DATA STREAMING AND SPARK submit job- Rajib’s team
 * Use cases- Eshwar’s team
 * Visualization- Karan’s team
