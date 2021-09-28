@@ -32,7 +32,6 @@ cd kafka_2.11-2.0.0/
 bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 
-
 STEP: - 5
 CREATE A TOPIC project3 WITH REPLICATION FACTOR 1 AND PARTITION 1
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --topic project3 --replication-factor 1 --partitions 1
@@ -48,4 +47,3 @@ CREATE A producer.py FILE TO FETCH DATA FROM API AND PASS TO TOPIC project3
  3)COLLECT FOREX DATA API FROM REST SECTION
 
  4)SCROLL DOWN AND COLLECT YOUR API FROM EXAMPLES SECTION
-
