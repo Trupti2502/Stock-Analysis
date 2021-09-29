@@ -3,7 +3,7 @@
 ## DESCRIPTION
 * This project includes live streaming of data from a stock analysis website tiingo.com.
 * The data from Forex trading API is streamed through Kafka.
-* After streaming, the data stored in topics is analysed
+* After streaming, the data stored in topics is analysed.
 * The analysis of data is visualized in Jupyter notebook for various use cases.
 
 
