@@ -8,12 +8,12 @@
 
 
 ## STREAMING TOOLS
-* Websocket
-* Requests library
-* Pandas datareader library
-* Netcat
+* Websocket,
+* Requests library,
+* Pandas datareader library,
+* Netcat,
 * API : Forex trading,
-* data visualization tool: matplotlib,Seaborn)
+* data visualization tool: matplotlib,Seaborn.
 
 
 ## TECHNOLOGIES USED:
