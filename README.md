@@ -28,7 +28,7 @@
 * DATA STREAMING AND SPARK submit job- Rajib’s team
 * Use cases- Eshwar’s team
 * Visualization- Karan’s team
-* EV stock use case-Kareem
+* EV stock use case-Kareem's team
 * Deployment-Trupti’s Team
 
 
