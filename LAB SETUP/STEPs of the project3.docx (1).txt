@@ -21,15 +21,9 @@ export SPARK_HOME=/home/ubuntu/spark-3.1.2-bin-hadoop3.2
 export PATH=$PATH:$SPARK_HOME/bin
 
 
-
-
-
-
 STEP: - 3
 FOLLOW THIS LINK INSTALL JUPYTER NOTEBOOK ON UBUNTU
 https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-20-04-and-connect-via-ssh-tunneling
-
-
 
 
 STEP: - 4
@@ -41,13 +35,9 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
   
 
-
-
 STEP: - 5
 CREATE A TOPIC project3 WITH REPLICATION FACTOR 1 AND PARTITION 1
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --topic project3 --replication-factor 1 --partitions 1
-
-
 
 
 STEP: - 6
@@ -57,30 +47,18 @@ https://api.tiingo.com/
 
 
 
-
-
-
 2. GOTO DOCUMENTATION SECTION AND COLLECT YOUR API KEY
-
-
-  
 
 
 
 3. COLLECT FOREX DATA API FROM REST SECTION
 
 
-  
-
-
 
 4. SCROLL DOWN AND COLLECT YOUR API FROM EXAMPLES SECTION
 
 
-  
-
-
-
+ 
 5. producer.py
 #This file is going to be used for producer 
 #first create a topic name as 'project3'
@@ -108,19 +86,11 @@ while True:
 6. RUN producer.py file
 
 
-  
-
-
-
-
 
 STEP: - 7
 START CONSUMER API IN NEW TERMINAL
 bin/kafka-console-consumer.sh --topic project3 --bootstrap-server localhost:9092
   
-
-
-
 
 
 STEP: - 8
@@ -175,8 +145,6 @@ query.awaitTermination()
 
 
 
-
-
 STEP: - 9
 1. GOTO SPARK BIN FOLDER
 cd /spark-3.1.2-bin-hadoop3.2/bin/
@@ -185,15 +153,9 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 /home/u
   
 
 
-
-
-
 STEP: - 10
 OUTPUT WILL BE SHOWING ON askPriceOutput TOPIC’S CONSUMER
   
-
-
-
 
 
 STEP: - 11
@@ -211,24 +173,16 @@ import threading
 consumer = KafkaConsumer('askPriceOutput', group_id='askPriceOutput',               bootstrap_servers=['localhost:9092'],
 )
 print("consumer started ...")
-
-
-
-
 x = {}
-
 
 def plot():
     global x
     for message in consumer:
         x[json.loads((message.value).decode("utf-8"))["quoteTimestamp"]] = json.loads((message.value).decode("utf-8"))["askPrice"]
 
-
 plot_thread = threading.Thread(target=plot)
 
-
 plot_thread.start()
-
 
 try:
     fig = plt.figure(figsize = (12, 6))
