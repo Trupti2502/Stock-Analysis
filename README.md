@@ -1,8 +1,8 @@
 # STOCK DATA STREAMING AND ANALYSIS
 
 ## DESCRIPTION
-* This project includes live streaming of data from a stock analysis website tiingo.com.
-* The data from Forex trading API is streamed through Kafka.
+* This project includes live streaming of data from a stock analysis website tiingo.com,Alpha Vantage.
+* The data from Forex and EV trading API is streamed through Kafka.
 * After streaming, the data stored in topics is analysed.
 * The analysis of data is visualized in Jupyter notebook for various use cases.
 
@@ -12,7 +12,7 @@
 * Requests library,
 * Pandas datareader library,
 * Netcat,
-* API : Forex trading,
+* API : Tiingo API,Alpha Vantage API.
 * data visualization tool: matplotlib,Seaborn.
 
 
