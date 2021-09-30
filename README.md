@@ -1,4 +1,4 @@
-# STOCK DATA ANALYSIS AND STREAMING
+# STOCK DATA STREAMING AND ANALYSIS
 
 ## DESCRIPTION
 * This project includes live streaming of data from a stock analysis website tiingo.com.
