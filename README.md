@@ -15,7 +15,7 @@
 * Pandas datareader library,
 * Netcat,
 * API : Tiingo API,Alpha Vantage API.
-* data visualization tool: matplotlib,Seaborn.
+* data visualization tool: matplotlib,Seaborn
 
 
 ## TECHNOLOGIES USED:
